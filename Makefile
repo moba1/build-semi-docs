@@ -1,4 +1,4 @@
-DOCKER_TAG := build-semi-docs
+DOCKER_TAG := moba/build-semi-docs
 
 .PHONY: all clean
 
