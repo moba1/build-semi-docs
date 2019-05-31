@@ -16,10 +16,4 @@ RUN \
     texlive-science \
     make
 
-RUN \
-  useradd -m -g users build && \
-  mkdir -p /build && \
-  chown -R build:users /build
-USER build
-
 CMD "bash"
